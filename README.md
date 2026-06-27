@@ -1,175 +1,41 @@
+# Collaborative To-Do List — JavaScript Implementation
 
-# 📋 Collaborative To-Do List Application
+## Overview
+A Node.js CLI application that allows multiple users to manage tasks collaboratively.
+Demonstrates JavaScript-specific features including async/await, Promises, and JSON-native data storage.
 
-A multi-user task management system built using **Java and JavaScript**, designed to demonstrate differences in programming paradigms, concurrency models, and system design approaches.
+## Requirements
+- Node.js v18 or higher
+- npm
 
----
+## Installation
+git clone <your-repo-url>
+cd todo-js
+npm install
 
-# 🚀 Project Overview
-
-This project implements a Collaborative To-Do List Application in two programming languages:
-
-* ☕ **Java** → Object-Oriented Programming + Multithreading
-* 🌐 **JavaScript** → Async/Await + Event-driven programming
-
-It allows multiple users to manage tasks collaboratively with features like task creation, assignment, categorization, and status tracking.
-
----
-
-# 🎯 Features
-
-## 👤 User Management
-
-* Add users
-* View users
-* Assign tasks to users
-
-## 📝 Task Management
-
-* Add tasks
-* Delete tasks
-* Mark tasks as completed
-* View tasks by user
-* View all tasks
-
-## 📂 Task Categories
-
-* Work
-* Study
-* Personal
-* Other
-
-## 💾 Data Storage
-
-* Java → File-based storage (.dat serialization)
-* JavaScript → JSON file storage
-
-## ⚡ Concurrency
-
-* Java → Multithreading using Thread class
-* JavaScript → Async/Await (non-blocking execution)
-
----
-
-# 🏗️ Project Structure
-
-```
-Collaborative-ToDo-List-App/
-│
-├── Java/
-│   ├── Main.java
-│   ├── User.java
-│   ├── Task.java
-│   ├── TaskManager.java
-│   ├── TaskThread.java
-│   ├── DataStorage.java
-│
-├── JavaScript/
-│   ├── index.js
-│   ├── userManager.js
-│   ├── taskManager.js
-│   ├── storage.json
-│
-└── README.md
-```
-
----
-
-# ☕ Java Version
-
-## ▶️ How to Run
-
-```bash
-cd Java
-javac *.java
-java Main
-```
-
-## 📌 Concepts Used
-
-* Object-Oriented Programming (OOP)
-* Classes & Objects
-* Multithreading
-* Synchronization
-* File Handling
-
----
-
-# 🌐 JavaScript Version
-
-## ▶️ How to Run
-
-```bash
-cd JavaScript
+## Run
 node index.js
-```
 
-## 📌 Concepts Used
+## Features
+- Add and manage multiple users
+- Create tasks with title, description, category, and assigned user
+- Categories: Work, Personal, School, Health, Other
+- Statuses: Pending, In-Progress, Completed
+- Filter tasks by user, category, or status
+- Simulated concurrent access using Promise.all
+- JSON file persistence via fs/promises
 
-* Async/Await
-* Promises
-* Event-driven programming
-* JSON storage
-* Modular JavaScript
+## Project Structure
+- models/     → User and Task class definitions
+- services/   → Business logic and async task operations  
+- storage/    → JSON file read/write using fs/promises
+- ui/         → CLI menu and user interaction
+- data.json   → Local data store
+- index.js    → Entry point
 
----
-
-# ⚖️ Java vs JavaScript Comparison
-
-| Feature     | Java            | JavaScript            |
-| ----------- | --------------- | --------------------- |
-| Typing      | Static          | Dynamic               |
-| Execution   | JVM (Compiled)  | Node.js (Interpreted) |
-| Concurrency | Multithreading  | Event Loop            |
-| Paradigm    | Object-Oriented | Multi-paradigm        |
-| Storage     | Serialization   | JSON                  |
-| Performance | High            | Medium                |
-
----
-
-# 🔄 Concurrency Model
-
-## Java
-
-* Uses real multithreading
-* Uses synchronized methods
-* Supports parallel execution
-
-## JavaScript
-
-* Single-threaded event loop
-* Uses async/await
-* Non-blocking execution
-
----
-
-# 🧪 Testing
-
-The application was tested for:
-
-* User creation and retrieval
-* Task assignment
-* Task deletion
-* Task status updates
-* Concurrency execution (Java)
-* Async execution (JavaScript)
-* Data saving and loading
-
----
-
-# 🚀 Future Enhancements
-
-* GUI (Java Swing / React)
-* Database integration (MySQL / MongoDB)
-* User authentication system
-* Real-time collaboration (WebSockets)
-* Cloud deployment
-
----
-
-# 👨‍💻 Author
-
-
-
----
-
+## Language-Specific Features Demonstrated
+- async/await for non-blocking operations
+- Promise.all for simulated concurrent access
+- JSON.parse / JSON.stringify for native data persistence
+- ES Modules (import/export)
+- Dynamic typing with manual input validation
