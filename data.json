@@ -1,0 +1,90 @@
+{
+  "tasks": [
+    {
+      "taskId": "1782581934500",
+      "title": "Fix Bug",
+      "description": "Fix the bugs",
+      "status": "Pending",
+      "category": "School",
+      "assignedTo": "Rachel",
+      "createdAt": "2026-06-27T17:38:54.500Z"
+    },
+    {
+      "taskId": "1782582000110",
+      "title": "Go for a run",
+      "description": "Run 2 miles",
+      "status": "Pending",
+      "category": "Health",
+      "assignedTo": "Gracie",
+      "createdAt": "2026-06-27T17:40:00.110Z"
+    },
+    {
+      "taskId": "1782582031899",
+      "title": "Read Chapter 5",
+      "description": "Completing reading chapter 5",
+      "status": "Completed",
+      "category": "School",
+      "assignedTo": "Rachel",
+      "createdAt": "2026-06-27T17:40:31.899Z"
+    },
+    {
+      "taskId": "1782582237201",
+      "title": "Complete assignment",
+      "description": "Complete the assignment 2 for the subject Computers",
+      "status": "Completed",
+      "category": "School",
+      "assignedTo": "Kai",
+      "createdAt": "2026-06-27T17:43:57.201Z"
+    },
+    {
+      "taskId": "1782582370332",
+      "title": "Pay Bills",
+      "description": "pay the electricty ans water bill",
+      "status": "In-Progress",
+      "category": "Personal",
+      "assignedTo": "Jack",
+      "createdAt": "2026-06-27T17:46:10.332Z"
+    },
+    {
+      "taskId": "1782586492770",
+      "title": "Task from Rachel",
+      "description": "Concurrent write test",
+      "status": "Pending",
+      "category": "Work",
+      "assignedTo": "Rachel",
+      "createdAt": "2026-06-27T18:54:52.770Z"
+    }
+  ],
+  "users": [
+    {
+      "userId": "1782581583186",
+      "username": "Hannah",
+      "assignedTasks": []
+    },
+    {
+      "userId": "1782581854465",
+      "username": "Rachel",
+      "assignedTasks": []
+    },
+    {
+      "userId": "1782581867322",
+      "username": "Gracie",
+      "assignedTasks": []
+    },
+    {
+      "userId": "1782582173099",
+      "username": "Kai",
+      "assignedTasks": []
+    },
+    {
+      "userId": "1782582320992",
+      "username": "Jack",
+      "assignedTasks": []
+    },
+    {
+      "userId": "1782586004822",
+      "username": "Paul",
+      "assignedTasks": []
+    }
+  ]
+}
