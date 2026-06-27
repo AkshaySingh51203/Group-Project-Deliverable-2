@@ -169,29 +169,7 @@ The application was tested for:
 
 # 👨‍💻 Author
 
-Academic Project
-Languages: Java & JavaScript
-Concept: Collaborative Task Management System
+
 
 ---
 
-# 📌 License
-
-This project is for educational purposes only.
-
----
-
-# ⭐ End of README
-
-```
-
----
-
-If you want next, I can also give you:
-✔ PPT slides (10 slides, ready to present)  
-✔ Viva questions + answers  
-✔ 2-minute presentation speech  
-✔ Diagrams (UML / Architecture image)
-
-Just tell me 👍
-```
